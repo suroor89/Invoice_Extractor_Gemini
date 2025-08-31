@@ -1,0 +1,13 @@
+prefix=/Users/suroor/Documents/Invoice_Extractor_Gemini/venv
+exec_prefix=/Users/suroor/Documents/Invoice_Extractor_Gemini/venv
+libdir=/Users/suroor/Documents/Invoice_Extractor_Gemini/venv/lib
+sharedlibdir=/Users/suroor/Documents/Invoice_Extractor_Gemini/venv/lib
+includedir=/Users/suroor/Documents/Invoice_Extractor_Gemini/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
